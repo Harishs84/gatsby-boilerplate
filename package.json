@@ -1,0 +1,46 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "env-cmd .env.development gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@contentful/rich-text-react-renderer": "^13.4.0",
+    "gatsby": "^2.3.3",
+    "gatsby-plugin-react-helmet": "^3.7.0",
+    "gatsby-plugin-sass": "^2.8.0",
+    "gatsby-plugin-sharp": "^2.0.32",
+    "gatsby-remark-images": "^3.8.0",
+    "gatsby-remark-relative-images": "^0.2.3",
+    "gatsby-source-contentful": "^2.3.56",
+    "gatsby-source-filesystem": "^2.8.0",
+    "gatsby-transformer-remark": "^2.13.0",
+    "imagemin-pngquant": "5.0.1",
+    "node-sass": "^4.11.0",
+    "pngquant-bin": "^3.1.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^8.0.2",
+    "pngquant": "^3.1.0",
+    "prettier": "^2.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
